@@ -1,0 +1,73 @@
+<!-- Add celestial bodies to the page -->
+<div class="planet1"></div>
+<div class="planet2"></div>
+<div class="planet3"></div>
+<div class="moon1"></div>
+<div class="moon2"></div>
+
+<!-- Digital Rain Container -->
+<div class="digital-rain">
+    <!-- Japanese characters will be dynamically added here via JavaScript -->
+</div>
+
+<!-- Forensic Scanner Lines -->
+<div class="forensic-scanner"></div>
+
+<script>
+// Enhanced Digital Rain Effect with Japanese Characters
+function createDigitalRain() {
+    const container = document.querySelector('.digital-rain');
+    if (!container) return;
+
+    const characters = [
+        '解析','暗号','幽霊','証拠','検出','追跡','復号','データ','コード','痕跡',
+        '調査','発見','秘密','真実','システム','スキャン','識別','判定','処理','解読',
+        'ア','カ','サ','タ','ナ','ハ','マ','ヤ','ラ','ワ',
+        'イ','キ','シ','チ','ニ','ヒ','ミ','リ','ウ','ク',
+        'ス','ツ','ヌ','フ','ム','ユ','ル','エ','ケ','セ',
+        '0','1','2','3','4','5','6','7','8','9',
+        'A','B','C','D','E','F','G','H','I','J'
+    ];
+
+    function createRainDrop() {
+        const char = document.createElement('div');
+        char.className = 'rain-char';
+        char.textContent = characters[Math.floor(Math.random() * characters.length)];
+
+        // Random positioning and styling
+        char.style.left = Math.random() * window.innerWidth + 'px';
+        char.style.animationDuration = (Math.random() * 3 + 2) + 's';
+        char.style.opacity = Math.random() * 0.8 + 0.2;
+        char.style.animationDelay = Math.random() * 2 + 's';
+
+        if (Math.random() < 0.3) {
+            char.classList.add('highlight');
+        } else if (Math.random() < 0.2) {
+            char.classList.add('forensic');
+        }
+
+        container.appendChild(char);
+
+        setTimeout(() => {
+            if (char.parentNode) {
+                char.parentNode.removeChild(char);
+            }
+        }, 8000);
+    }
+
+    function startRain() {
+        createRainDrop();
+        setTimeout(startRain, Math.random() * 300 + 100);
+    }
+
+    startRain();
+}
+
+// Initialize when DOM is ready
+document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(createDigitalRain, 1000);
+});
+window.addEventListener('load', () => {
+    setTimeout(createDigitalRain, 1000);
+});
+</script>
