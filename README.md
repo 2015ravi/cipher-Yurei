@@ -257,7 +257,7 @@ cipher-yurei/
 ├── README.md                   # This file
 └── LICENSE                     # MIT License
 
-MISSING FILES (Download separately):
+MISSING FILES :
 ├── checkpoint                  # ❌ Lip reading model (NOT INCLUDED - too large for GitHub)
 ├── lipmovement.pt              # ❌ Lip reading weights (NOT INCLUDED - too large for GitHub)
 └── data/s1/*.mpg               # ❌ Video dataset (NOT INCLUDED - download from Google Drive)
