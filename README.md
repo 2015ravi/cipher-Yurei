@@ -186,7 +186,7 @@ pip install -r requirements.txt
 - ❌ **Checkpoint files** - NOT included in this repository
 - ❌ **lipmovement.pt** - NOT uploaded due to large file size
 - **Reason:** The lip reading model files are too large for GitHub (exceed GitHub's file size limits)
-- **Solution:** Download separately from Google Drive or train your own model
+- **Solution:** Download any pretrained model  or train your own model
 
 #### Lip Reading Dataset & Model
 Download the lip reading dataset and model from Google Drive (referenced from [nicknochnack/LipNet](https://github.com/nicknochnack/LipNet)):
