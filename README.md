@@ -85,7 +85,7 @@ Feature Extraction (MediaPipe Holistic)
 ├─ Face: 468 landmarks (x, y, z)
 ├─ Pose: 33 landmarks (x, y, z, visibility)
 └─ Hands: 42 landmarks (x, y, z)
-    ↓
+    
 Feature Vector (1662 features per frame)
     ↓
 Sequence (30 × 1662)
