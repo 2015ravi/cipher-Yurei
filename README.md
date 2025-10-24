@@ -633,7 +633,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-**Email:** your.email@example.com  
+**Email:** garlapatiravitejag.gr@gmail.com / irt_gvvs@galaticgeeks.com  
 **GitHub:** [@yourusername](https://github.com/yourusername)  
 **Project Link:** [https://github.com/yourusername/cipher-yurei](https://github.com/yourusername/cipher-yurei)
 
