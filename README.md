@@ -164,7 +164,7 @@ ASL Gesture Prediction (hello / thanks / iloveyou)
 | **Sign Detection** | Text + Stats | - Predicted gesture (hello/thanks/iloveyou)<br>- Confidence percentage<br>- Hand detection rate<br>- Frame analysis report |
 | **Both Modes** | Combined | - All lip reading outputs<br>- All sign detection outputs<br>- Side-by-side comparison |
 
-### Sample Results check in the ppt link  
+### Sample Results check in the ppt link  https://1drv.ms/p/c/5e25e0050eb41f84/EQshgqahxR5JtNEnKMG5E4AB-lqRaak3FegTXxIIMIeOyg?e=anOpPm
 
 
 
