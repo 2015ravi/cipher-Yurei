@@ -154,7 +154,7 @@ ASL Gesture Prediction (hello / thanks / iloveyou)
 | **animation_new.gif** | GIF Animation | Preprocessed lip region visualization (75 frames) | Lip Reading mode |
 | **sign_detection.gif** | GIF Animation | Sign language hand movement visualization | Sign Detection mode |
 | **test_video_couple.mp4** | Video | Processed video output with overlays | Both modes |
-| **\*.npy files** | NumPy Arrays | Converted video frames for lip reading processing | Lip Reading mode |
+| **\*.npy files** | NumPy Arrays | Converted video frames for lip reading processing | Lip Reading mode |  (not added the.npy files_)
 
 ### Result Outputs
 
@@ -164,23 +164,9 @@ ASL Gesture Prediction (hello / thanks / iloveyou)
 | **Sign Detection** | Text + Stats | - Predicted gesture (hello/thanks/iloveyou)<br>- Confidence percentage<br>- Hand detection rate<br>- Frame analysis report |
 | **Both Modes** | Combined | - All lip reading outputs<br>- All sign detection outputs<br>- Side-by-side comparison |
 
-### Sample Results
+### Sample Results check in the ppt link  
 
-**Lip Reading Output:**
-```
-Decoded Text: "hello world"
-Confidence: 96.2%
-Frames Processed: 75
 
-```
-
-**Sign Detection Output:**
-```
-Predicted Gesture: hello
-Confidence: 87.5%
-Hand Detection Rate: 93% (28/30 frames)
-
-```
 
 ---
 
