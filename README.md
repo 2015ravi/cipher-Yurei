@@ -639,21 +639,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/cipher-yurei&type=Date)](https://star-history.com/#yourusername/cipher-yurei&Date)
-
----
-
-<div align="center">
-  <h3>👻 Cipher Yūrei | サイファー幽霊</h3>
-  <p><i>Decoding the Unseen Voice</i></p>
-  <p>Built with ❤️ using TensorFlow, MediaPipe & Streamlit</p>
-  <br>
-  <p><strong>🚀 Quick Start:</strong></p>
-  <code>streamlit run streamlit_new_test_sign.py</code>
-  <br><br>
-  <p><strong>✅ ASL Model Included | ❌ Lip Reading Model: Download Separately</strong></p>
-</div>
 
 
